@@ -1,45 +1,129 @@
 
 
 body{
-background-color:#f4f4f4;
-color: #555555;
-border:5px solid #f4f4f4;
-cursor: pointer;
-
-font-family: Arial, Helvetica,
- sans-serif;
- font-size: 16px;
- font-weight:normal;
- line-height: 1.6em
+            background-color:#f4f4f4;
+            color: #555555;
+            border:5px solid #f4f4f4;
+            cursor: pointer;
+            font-family: Arial, Helvetica,
+            sans-serif;
+            font-size: 16px;
+            font-weight:normal;
+            line-height: 1.6em
 }
 
-
-.block{
-    border: #f4f4f4;
-    display: inline-block;
-    padding: 5px 20px 5px 20px;
-    margin:  0px 20px 0px 20px;
+#branch {
+                float:left; 
+                text-align: center;
+                padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
 }
 
+#branch1 {
+                float:left; 
+                text-align: center;
+               padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
+}
+        
+
+
+
+#branch2 {
+                float:left; 
+                text-align: center;
+                padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
+}
+                
+        
+
+
+#branch3 {
+                float:left;
+                text-align: center;
+                padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
+} 
+                
+        
+
+
+
+#login {
+                float:right; 
+                padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
+
+        
+}
+
+#login2 {
+                float:right; 
+               padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
+
+        
+}
+ 
 
 #block1 {
                 float:left; 
                 background:#ABA8A9;
                 width:33.3%;
                 height:280px;
-                }
 
-    #block2 {
+}
+
+ #block2 {
                 float:left; 
                 background:#ABA8A9;
                 width:33.3%;
                 height:280px;
                 }
 
-    #block3 {
+#block3 {
                 float:left; 
                 background:#D8DFEE;
                 width:33.3%;
                 height:280px;
-                }
-    
+
+    }
+
+          
+.container{
+                border: #f4f4f4;
+                display: inline-block;
+                padding: 5px 20px 5px 20px;
+                margin:  0px 20px 0px 20px;
+}
+
+
+
+
+
+ .first-text {
+                    position: absolute;
+                    top: 17px;
+                    left: 20px;
+                    
+        }
+  
+.second-text {
+                    position: absolute;
+                    top: 17px;
+                    left: 150px;
+        }
+
+.Third-text {
+                    position: absolute;
+                    top: 17px;
+                    left: 150px;
+        }
+
+ .tribe {
+                    margin: 3%;
+                    position: relative;
+                    text-align:center;
+           
+        }
