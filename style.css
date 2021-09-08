@@ -12,20 +12,13 @@ body{
             line-height: 1.6em
 }
 
-#branch {
-                float:left; 
-                text-align: center;
-                padding: 5px 20px 5px 20px;
-                margin:  0px 20px 0px 20px;
-}
+.branch {
+        display: flex;
+         justify-content: space-between;
+        align-items: center;
+        gap:2em;
 
-#branch1 {
-               float:left;
-                text-align: center;
-                padding: 5px 20px 5px 20px;
-                margin: 5px 20px 5px  20px;
 }
-
 
 #login {
                 float:right; 
@@ -34,7 +27,8 @@ body{
        
 }
 
- 
+
+
 
 #block1 {
                 float:left; 
@@ -100,6 +94,7 @@ h5  {
                 text-align:center;
                 background-image: url("./Images/chill.png");
                 background-repeat: no-repeat;
-                background-size: 1500px 500px;
+                width: 80%;
+                margin: auto;
                 margin-top: 50px;
         }
