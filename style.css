@@ -28,7 +28,11 @@ body{
 }
 
 
-
+button{
+        padding: 15px;
+        width: 150px;
+        border-radius:8px;
+}
 
 #block1 {
                 float:left; 
